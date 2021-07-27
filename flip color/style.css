@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: gray solid 1px;
+    box-shadow: 5px 5px #888888;
+    
+}
+ul{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;  
+    list-style-type: none;
+}
+
+ul li{
+    margin-right: 30px;
+    padding-top: 30px;
+   
+}
+ul li a{
+    text-decoration: none;
+    background-color: white;
+}
+.text-center{
+    padding-top: 200px;
+}
+.text-center h1{
+    background-color: black;
+    color: white;
+}
