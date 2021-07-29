@@ -1,0 +1,35 @@
+.container{
+    padding-top: 100px;
+}
+.center{
+    background-color: gainsboro;
+    box-shadow: gray 5px 10px 10px;
+    width: 500px;
+    height: 400px;
+    padding-top: 10px;
+    margin: auto;
+    border: 1px solid gray;
+    
+}
+.image{
+    
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+}
+img{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid aquamarine;
+    box-shadow: aquamarine 5px 10px 10px;
+}
+.underline{
+    
+    width: 120px;
+}
+i{
+ color: chartreuse;
+}
