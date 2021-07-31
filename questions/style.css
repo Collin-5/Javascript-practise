@@ -1,0 +1,45 @@
+.center{
+    width: 60%;
+    
+    margin: auto;
+}
+.questions{
+    margin-top: 50px;
+
+}
+h1, i{
+    color: darkgoldenrod;
+}
+.quiz{
+    border: solid 1px gray; 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 10px;
+}
+.quiz h6{
+    padding-top: 10px;
+}
+.answer{
+    border-radius: 10px;
+    background-color: rgb(143, 186, 188);
+    display: none;
+}
+p{
+    font-size: 12px;
+    text-align: justify;
+}
+.minus{
+    display: none;
+}
+
+.show .answer{
+    display: block;
+}
+.show .minus{
+    display: block;
+}
+.show .plus{
+    display: none;
+}
