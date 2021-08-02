@@ -1,0 +1,44 @@
+.center{
+    
+    padding-top: 50px;
+}
+.buttons{
+    padding-top: 20px;
+    
+}
+
+.menuitems{
+    padding-top: 20px;
+    display: grid;
+  
+  justify-items: center 
+    
+}
+.item{
+    margin: 12px;
+    display: flex;
+    box-sizing: border-box;
+}
+.image{
+    margin: 10px;
+}
+img{
+    border-radius: 5px;
+}
+.paragraph{
+    width: 200px;
+    
+}
+p{
+    font-size: 10px;
+}
+p, h1{
+    color: rgb(187, 131, 59);
+
+}
+.underline{
+    background-color: chocolate;
+    width: 80px;
+    margin: auto;
+    height: 3px;
+}
