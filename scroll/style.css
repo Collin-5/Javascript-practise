@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center{
+    padding: 20px;
+
+}
+.logo{
+    margin-left: 20px;
+}
+button.hide{
+    display: none;
+}
+@media screen and (min-width: 600px) {
+    ul {
+      display: flex;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    button.hide {
+      display: block;
+    }
+     div.hidden{
+        display: none;
+        
+    }  
+    .hidden{
+        background-color: beige;
+        width: 150px;
+    }
+    .hidden ul li a{
+        color: cadetblue;
+    }
+    .hidden ul li a:hover{
+        padding-left: 10px;
+    }
+    
+  }
+
+ul{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+    color: beige;
+
+}
+.banner h1{
+    padding-top: 150px;
+   
+    
+}
+header{
+
+    height: 610px;
+    background-image: url("https://images.unsplash.com/photo-1612468008274-9445bd56161e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29vbCUyMGNhcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+h1, i, h3, p, p a{
+    color: beige;
+}
+button span i{
+    color: turquoise;
+    font-size: 50px;
+}
+h4{
+    color: white;
+    padding-top: 70px;
+}
+span{
+    color: rgb(50, 206, 167);
+}
+ul li a:hover{
+    color: rgb(50, 206, 167);;
+}
+button :hover{
+    color: rgb(50, 206, 167);;
+}
+p a:hover{
+    color: rgb(50, 206, 167);;
+}
+
+section{
+    height: 610px;
+}
+footer{
+    height: 300px;
+    background-color: rgb(36, 28, 35);
+}
+ .totop{
+    position: fixed;
+    right: 20px;
+    
+}
+.totop-hide{
+    visibility: hidden;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    background-color: beige;
+    width: 100%;
+    color: turquoise;
+    
+}
+.fixed ul li a{
+    color: turquoise;
+}
+.fixed .nav .logo h3{
+    color: turquoise;
+}
+.fixed .nav button i{
+    color: turquoise;
+}
