@@ -1,0 +1,44 @@
+.title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.about{
+    width: 70%;
+    margin: 0 auto;
+    border: rgb(15, 216, 166) solid 1px;
+    box-shadow: 5px 5px 10px rgb(15, 216, 166);
+}
+/* .buttons{
+    background-color: gray;
+} */
+
+.change{
+    /* margin-bottom: 20px; */
+    
+    
+}
+button{
+    width: 140px;
+    
+}
+.btn{
+    background-color: gray !important;
+    
+}
+button.active{
+    background-color: white !important;
+}
+
+p{
+    text-align: center;
+}
+
+.content{
+    margin: 30px;
+    display: none;
+}
+article.active{
+    display: block;
+}
+
