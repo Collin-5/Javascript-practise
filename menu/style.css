@@ -6,13 +6,18 @@
     padding-top: 20px;
     
 }
+.btn{
+    margin: 3px;
+}
 
 .menuitems{
+    width: 80%;
+    margin: auto;
     padding-top: 20px;
-    display: grid;
-  
-  justify-items: center 
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+      
 }
 .item{
     margin: 12px;
@@ -41,4 +46,9 @@ p, h1{
     width: 80px;
     margin: auto;
     height: 3px;
+}
+@media screen and (max-width: 560px){
+    .item{
+        display: block;
+    }
 }
