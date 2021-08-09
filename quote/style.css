@@ -1,0 +1,24 @@
+.center{
+    margin-top: 30px;
+}
+h1{
+    color: cadetblue;
+    padding: 12px;
+}
+.form{
+    margin: 20px;
+
+}
+form input{
+    width: 50px;
+}
+.quote{
+    width: 70%;
+    margin: auto;
+}
+.quote p{
+    color: cadetblue;
+    margin-bottom: 20px;
+
+    
+}
